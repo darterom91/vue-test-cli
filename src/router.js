@@ -29,6 +29,11 @@ export default new Router({
       path: '/fotos/:id',
       name: 'fotos',
       component: () => import(/* webpackChunkName: "about" */ './views/Fotos.vue')
+    },
+    {
+      path: '/columnas',
+      name: 'columnas',
+      component: () => import(/* webpackChunkName: "about" */ './views/Columnas.vue')
     }
   ]
 })

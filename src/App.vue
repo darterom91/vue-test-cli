@@ -1,12 +1,14 @@
 <template>
-  <div id="app">
-    <div id="nav">
+  <div id="app" class="bg-dark">
+    <div id="nav" class="bg-light">
 
       <router-link to="/">Home</router-link>
       |
       <router-link to="/about">About</router-link>
       |
       <router-link to="/servicios">servicios</router-link>
+      |
+      <router-link to="/columnas">columnas</router-link>
       |
       <router-link to="/Fotos/1">fotos</router-link>
     </div>
@@ -23,13 +25,16 @@
           <b-nav-item to="/" exact>Home</b-nav-item>
           <b-nav-item to="/about">About</b-nav-item>
           <b-nav-item to="/servicios">servicios</b-nav-item>
+          <b-nav-item to="/columnas">columnas</b-nav-item>
           <b-nav-item to="/Fotos/1">fotos</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
   </b-container>
 </div>
-    <router-view/>
+    <b-container>
+      <router-view/>
+    </b-container>
   </div>
 </template>
 

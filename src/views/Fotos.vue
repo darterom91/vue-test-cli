@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="text-white">
     <h1>Galeria de fotos</h1>
     <Foto/>
     <img src="../assets/camara.jpg" alt="Camara de fotos">
