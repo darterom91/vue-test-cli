@@ -10,7 +10,7 @@ export default new Router({
     {
       path: '/',
       name: 'home',
-      component: () => import(/* webpackChunkName: "about" */ './views/Home.vue')
+      component: () => import(/* webpackChunkName: "Home" */ './views/Home.vue')
     },
     {
       path: '/about',
@@ -23,12 +23,27 @@ export default new Router({
     {
       path: '/servicios',
       name: 'servicios',
-      component: () => import(/* webpackChunkName: "about" */ './views/Servicios.vue')
+      component: () => import(/* webpackChunkName: "Servicios" */ './views/Servicios.vue')
     },
     {
       path: '/fotos/:id',
       name: 'fotos',
-      component: () => import(/* webpackChunkName: "about" */ './views/Fotos.vue')
+      component: () => import(/* webpackChunkName: "Fotos" */ './views/Fotos.vue')
+    },
+    {
+      path: '/columnas',
+      name: 'columnas',
+      component: () => import(/* webpackChunkName: "Columnas" */ './views/Columnas.vue')
+    },
+    {
+      path: '/forms',
+      name: 'forms',
+      component: () => import(/* webpackChunkName: "Forms" */ './views/Forms.vue')
+    },
+    {
+      path: '/CRUD',
+      name: 'CRUD',
+      component: () => import(/* webpackChunkName: "CRUD" */ './views/CRUD.vue')
     }
   ]
 })
