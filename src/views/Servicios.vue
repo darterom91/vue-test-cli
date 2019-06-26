@@ -3,6 +3,7 @@
     <img alt="Vue logo" src="../assets/pinguins.jpg">
     <h1 class="mt-5">Servicios</h1>
     <p>Esta es la pagina de Servicios</p>
+<<<<<<< HEAD
 
     <ul v-for="(item, index) in posts" :key="index">
       <p v-if="item.biography.publisher ==='DC Comics' && item.name ==='Batman' && item.biography.fullName ==='Bruce Wayne'">
@@ -31,3 +32,7 @@ export default {
   },
 }
 </script>
+=======
+  </div>
+</template
+>>>>>>> master

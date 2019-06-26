@@ -1,5 +1,9 @@
 <template>
+<<<<<<< HEAD
   <div class="text-white">
+=======
+  <div>
+>>>>>>> master
     <h1>Galeria de fotos</h1>
     <Foto/>
     <img src="../assets/camara.jpg" alt="Camara de fotos">

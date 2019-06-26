@@ -2,7 +2,7 @@
   <div id="app" class="bg-dark text-light">
     <div id="nav" class="bg-light">
 
-      <router-link to="/">Home</router-link>
+gi      <router-link to="/">Home</router-link>
       |
       <router-link to="/about">About</router-link>
       |
